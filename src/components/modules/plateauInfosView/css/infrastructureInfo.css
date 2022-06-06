@@ -1,0 +1,14 @@
+.infras-infos {
+  width: 250px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infras-name {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  text-align: center;
+}

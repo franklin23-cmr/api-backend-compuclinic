@@ -1,0 +1,39 @@
+.plateau-container {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.plateau-container h3 {
+  font-family: 'Montserrat';
+  margin-top: 30px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  font-family: 'Montserrat';
+  margin-bottom: 5px;
+}
+
+.card-localisation {
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: 'Tauri';
+  color: gray;
+}
+
+.card-contact {
+  margin: 0;
+  font-family: 'Tauri';
+  font-size: small;
+}
+
+.card-class {
+  margin: 0;
+  font-family: 'Tauri';
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.profils {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profils-card {
+  margin: 5px;
+  width: 300px;
+}
+
+.profils-name {
+  font-family: 'Montserrat';
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+.profils-type {
+  font-family: 'Montserrat';
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #1890ff;
+}
+
+.profil-roles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profil-roles p {
+  margin: 2px;
+  padding: 5px;
+  background-color: #0053f3;
+  border-radius: 20px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}

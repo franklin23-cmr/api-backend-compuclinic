@@ -1,0 +1,32 @@
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.template-wrap {
+  /* background-color: #ff5252; */
+  padding-top: 7px;
+  padding-left: 5px;
+  font-size: 12px;
+  font-family: 'Tauri';
+  height: 100%;
+}
+
+.e-schedule .e-appointment-details {
+  padding: 0 !important;
+  background-color: #ff5252 !important;
+}
+
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment.e-appointment-border,
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment:focus {
+  background-color: inherit;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment {
+  background-color: inherit;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.e-popup-header {
+  background-color: #ff5252 !important;
+}

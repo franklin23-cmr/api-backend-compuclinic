@@ -1,0 +1,22 @@
+.med-name {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.med-grade {
+  font-size: 12px;
+  margin: 0px;
+  color: gray;
+}
+
+.med-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.med-info:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #777;
+}

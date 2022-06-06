@@ -1,0 +1,32 @@
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.header-title {
+  font-size: 15px;
+  margin-bottom: 0px;
+  font-family: 'Tauri';
+}
+
+.header-sub-title {
+  font-size: 12px;
+  margin-bottom: 0px;
+  font-family: 'Tauri';
+}
+
+.heart {
+  color: #e00;
+  animation: beat 0.8s infinite alternate;
+  transform-origin: center;
+  /* margin-right: 20px; */
+  cursor: pointer;
+}
+
+/* Heart beat animation */
+@keyframes beat {
+  to {
+    transform: scale(1.5);
+  }
+}

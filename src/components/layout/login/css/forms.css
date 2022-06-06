@@ -1,0 +1,64 @@
+.login-body {
+  background-image: url('../../../../assets/images/Design_Background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.forms {
+  width: 530px;
+  padding: 20px;
+  padding-top: 50px;
+  border-radius: 30px;
+  display: block;
+}
+
+.textfield {
+  width: 400px;
+  border-radius: 20px;
+  margin-bottom: 20px !important;
+}
+
+.button {
+  height: 60px;
+  border-radius: 30px;
+  font-size: 25px;
+  color: white;
+  background-image: linear-gradient(to right, #4871f7, #0044ffef);
+  outline: none;
+  margin-bottom: 50px;
+}
+
+.button:hover {
+  background-image: linear-gradient(to right, #0044ffef, #4871f7);
+  outline: none;
+}
+
+.button:active {
+  outline: none;
+}
+
+.btn-primary {
+  width: 390px;
+  height: 50px;
+  border-radius: 300px;
+  color: 4c7eff;
+}
+
+.show-responsive {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .hide-responsive {
+    display: none;
+  }
+
+  .show-responsive {
+    display: inline-block;
+    padding-left: 250px;
+  }
+}
